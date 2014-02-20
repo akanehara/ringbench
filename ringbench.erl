@@ -19,7 +19,7 @@ bench(Ring, N, M) ->
         timeout -> void
     end.
 
-usage() -> io:format("Ussage: ringbench N M~n").
+usage() -> io:format("Usage: ringbench main N M~n").
 
 main([ArgN, ArgM | _]) ->
     try
